@@ -6,29 +6,39 @@
 </head>
 <body>
 
-<div>
+
+
+<input type="checkbox" id="one" onchange="foo()">
+
+
+
+
+
+
  <script type="text/javascript">
 
-  /*var arr=["one","two","three","four"];
-     for(e in arr){
-         console.log(e)
-     }
-     */
      
-     var arra=[["first-1", "second-1"],["first-2","second-2"]];
-     for(i in arra){
-     for(j in arra[i]){
-     for(c in arra[i][j]){
-         document.write(c)
-     }
-     }
-     }
-
+     
+    let foo =()=>{
+    let chbox = document.getElementById('one')
+    if(chbox.checked){
+        console.log("sdf")
+    }
+    else{console.log("s222df")}
+    
+     
+    }
+    
+  
+     
+     
+     
+     
      
      
  </script>   
  
-</div>
+
 
 </body>
 </html>
